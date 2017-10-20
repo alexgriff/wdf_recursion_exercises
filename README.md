@@ -123,7 +123,9 @@ function merge(left, right) {
 // write a function called walkTheDom that takes two parameters,
 // a DOM node, and a callback function.
 
-// each DOM node tag name or text in the order the user sees them
+// Your function should visit each DOM node and invoke the callback with each one..
+
+// think about starting with the whole document, visiting it's children, visiting the children of each child, the children of that child's children... etc....
 
 const nodeLogger = function(node) {
   console.log('the element is: ', node.tagName || node)
