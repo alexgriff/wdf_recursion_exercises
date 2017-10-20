@@ -47,7 +47,7 @@
 // text = "how does that lizard feel?"
 // subsequence = "word"
 //
-// would return true becuause the text contains
+// would return true because the text contains
 // the characters 'w', 'o', 'r', 'd' IN ORDER
 // "hoW dOes that lizaRD feel?"
 
@@ -65,7 +65,28 @@ function isSubsequence(text, subsequence) {/* ... */}
 
 ### Merge Sort
 
+
 ```js
+Merge Sort Warmup
+
+// Write a function called findMax
+// which recursively finds the largest element in an array
+
+function findMax(arr) {
+  // algorithm:
+  // if arr contains 2 (or less) elements, solve directly
+  // i.e. return the max
+
+  // else
+  // split the arr into 2 parts
+  // call findMax on each half
+  // and return the max
+}
+```
+
+
+```js
+Merge Sort
 // takes an array and returns the array in sorted order
 function mergeSort(arr) {
 
@@ -94,7 +115,28 @@ function merge(left, right) {
 
   return [...result, ...left, ...right]
 }
+```
 
+### Walk the DOM
+
+```js
+// write a function called walkTheDom that takes two parameters,
+// a DOM node, and a callback function.
+
+// each DOM node tag name or text in the order the user sees them
+
+const nodeLogger = function(node) {
+  console.log('the element is: ', node.tagName || node)
+}
+
+const walkTheDom = function(node, cb) {
+  /* your code here */
+  // helpful DOM methods
+  // - firstChild
+  // - nextSibling
+}
+
+walkTheDom(document, nodeLogger)
 ```
 
 ### Permutations
