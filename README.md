@@ -20,7 +20,20 @@
     // => 'hello world'
 
   ```
+  
 3.
+  ```js
+  // write a function called isPalindrome that takes a string and returns
+  // true or false whether that string is a palindrome
+  
+  // (a palindrome is a word that reads the same backward as forward)
+  // ex: isPalindrome('racecar')
+  // => true
+  
+  // ex: isPalindrome('hello')
+  // => false
+  ```
+4.
   ```js
   // write a method appendDown that is called with
   // an empty array and an integer (n), the result should be
@@ -30,7 +43,7 @@
   // => [5,4,3,2,1,0]
   ```
 
-4.
+5.
 ```js
 // recursively count all the negative integers in an array
 // function totalCountNegativeInts(arr, count) {/* ... */}
